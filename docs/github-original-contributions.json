@@ -1,0 +1,143 @@
+{
+  "note": "Verified five original commit records; no history was rewritten. Counts separate source from generated/asset data.",
+  "authors": {
+    "Bharan <bharanraj.p24@iiits.in>": {
+      "source": {
+        "added": 4869,
+        "deleted": 0,
+        "files": 10,
+        "binaryFiles": 0
+      },
+      "documentation": {
+        "added": 78,
+        "deleted": 0,
+        "files": 1,
+        "binaryFiles": 0
+      }
+    },
+    "Purvaj <pentapurvaj07@gmail.com>": {
+      "source": {
+        "added": 2962,
+        "deleted": 0,
+        "files": 7,
+        "binaryFiles": 0
+      },
+      "lockfiles": {
+        "added": 1170,
+        "deleted": 0,
+        "files": 1,
+        "binaryFiles": 0
+      },
+      "configuration": {
+        "added": 19,
+        "deleted": 0,
+        "files": 1,
+        "binaryFiles": 0
+      },
+      "documentation": {
+        "added": 77,
+        "deleted": 0,
+        "files": 1,
+        "binaryFiles": 0
+      }
+    },
+    "Praneeth <174439533+me-coder7@users.noreply.github.com>": {
+      "source": {
+        "added": 2794,
+        "deleted": 0,
+        "files": 9,
+        "binaryFiles": 0
+      },
+      "documentation": {
+        "added": 78,
+        "deleted": 0,
+        "files": 1,
+        "binaryFiles": 0
+      }
+    },
+    "Gurwinder <gaurav98498@gmail.com>": {
+      "source": {
+        "added": 2412,
+        "deleted": 0,
+        "files": 6,
+        "binaryFiles": 0
+      },
+      "documentation": {
+        "added": 80,
+        "deleted": 0,
+        "files": 1,
+        "binaryFiles": 0
+      }
+    },
+    "Jeswanth <jeswanthreddyreddem@gmail.com>": {
+      "configuration": {
+        "added": 141,
+        "deleted": 0,
+        "files": 10,
+        "binaryFiles": 0
+      },
+      "documentation": {
+        "added": 1585,
+        "deleted": 0,
+        "files": 14,
+        "binaryFiles": 0
+      },
+      "source": {
+        "added": 9801,
+        "deleted": 0,
+        "files": 135,
+        "binaryFiles": 0
+      },
+      "assets": {
+        "added": 74,
+        "deleted": 0,
+        "files": 5,
+        "binaryFiles": 4
+      },
+      "datasets": {
+        "added": 136718,
+        "deleted": 0,
+        "files": 61,
+        "binaryFiles": 0
+      },
+      "lockfiles": {
+        "added": 3166,
+        "deleted": 0,
+        "files": 2,
+        "binaryFiles": 0
+      }
+    }
+  },
+  "commits": [
+    {
+      "sha": "5cd27683dee4475a31481e738eb111ca45daa3ed",
+      "name": "Bharan",
+      "email": "bharanraj.p24@iiits.in",
+      "subject": "feat(react): implement public access and user administration"
+    },
+    {
+      "sha": "fdfd040a6d8954529834fb49a3cdbe7b111d607f",
+      "name": "Purvaj",
+      "email": "pentapurvaj07@gmail.com",
+      "subject": "feat(react): implement provider learning and shared presentation"
+    },
+    {
+      "sha": "15962aa0a62c9113344dbee0de440c40f5b85ced",
+      "name": "Praneeth",
+      "email": "174439533+me-coder7@users.noreply.github.com",
+      "subject": "feat(react): implement instructor workflows and shared interaction UI"
+    },
+    {
+      "sha": "0aaf23324adb60a1854d5e670298bd5e904aa367",
+      "name": "Gurwinder",
+      "email": "gaurav98498@gmail.com",
+      "subject": "feat(react): implement administrative commerce and reporting UI"
+    },
+    {
+      "sha": "82fbbea349aab6014f152d15742d531060f52626",
+      "name": "Jeswanth",
+      "email": "jeswanthreddyreddem@gmail.com",
+      "subject": "feat(platform): integrate learner UI, backend services, data and tests"
+    }
+  ]
+}

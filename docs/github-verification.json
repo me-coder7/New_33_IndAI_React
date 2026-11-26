@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Calcutta",
+  "repository": "me-coder7/New_33_IndAI_React",
+  "branch": "redux-migration",
+  "commands": [
+    {
+      "command": "npm install --registry=https://registry.npmjs.org",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "214 packages installed; 5 inherited dependency-tree advisories."
+    },
+    {
+      "command": "npm run setup",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "Created fresh ignored demo SQLite data in clone; parent data untouched."
+    },
+    {
+      "command": "npm test",
+      "status": "passed",
+      "exitCode": 0,
+      "testsPassed": 68,
+      "testsFailed": 0,
+      "testsSkipped": 0
+    },
+    {
+      "command": "npm run build",
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:e2e",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "All 7 demo logins and supplied actor workflows; final running cell completed successfully."
+    },
+    {
+      "command": "npm run test:trading-ui",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "Watchlist CRUD/reordering/persistence, charts/fullscreen, 1440/390/320px, dark mode; zero browser page errors."
+    },
+    {
+      "command": "npm run test:smoke; npm run test:catalog-ui",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "Smoke starts scripts/dev.js, validates Vite/API proxy and built server; transient ready-probe connection refusal recovered."
+    },
+    {
+      "command": "scripts/Summarize-Contributions.ps1 -AllHistory -AsJson",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "Independent PowerShell totals match 22,838 historical source additions."
+    },
+    {
+      "command": "scripts/Test-StagedSecrets.ps1 -PrivateEnvPath ..\\.env",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "Scanned actual index; checked local credential patterns and private parent env values without printing them."
+    },
+    {
+      "command": "git diff --cached --check; git check-ignore ...",
+      "status": "passed",
+      "exitCode": 0,
+      "note": "One inherited SQL-line trailing space removed; private env, data, dist and node_modules are ignored."
+    }
+  ],
+  "notExecuted": [
+    "Normal merge into main and final release tag: explicit approval required",
+    "Hosted Razorpay checkout/refunds",
+    "Live Upstox entitlements/open-market execution",
+    "SMTP delivery",
+    "Real financial transfers",
+    "Legacy JSON-to-SQLite account/data migration",
+    "Original NestJS branch runtime suite",
+    "Original-versus-new visual pixel comparison"
+  ],
+  "source": "Tests rerun in the actual imported clone; earlier release-only claims were not substituted for this verification."
+}

@@ -1,7 +1,7 @@
 # Source and third-party notices
 
-IndAI retains the original project layouts, styles, assets and bundled datasets. The trading workspace and research engine incorporate adapted India Algo Lab modules for authenticated per-user operation.
+This migration imports the supplied IndAI Redux application. It does not assign new ownership over original code, assets, datasets or third-party packages. Original implementation notices remain available at tag `pre-redux-82fbbea`.
 
-React/React DOM, Vite, NestJS, class-validator, class-transformer, Multer, Nodemailer, Playwright and other dependencies are installed from the committed package lockfiles. Their respective license files accompany the installed packages. Review dependency and original-source licenses before redistribution.
+The Redux source retains its bundled NSE catalogue, PDF trading guide and reference video. Their source/provenance descriptions remain in README.md and the catalogue metadata. These assets are not student source-code line contributions.
 
-This document grants no new ownership or license over original project code, datasets, artwork or third-party packages. No private service credentials are included in the source distribution.
+React, React DOM, Redux Toolkit, React Redux, Vite, Express, Lightweight Charts, React Hook Form, Zod, Nodemailer, Playwright, Vitest and other dependencies are installed from package-lock.json; their licenses accompany the installed packages. No new license grant is implied by this document.

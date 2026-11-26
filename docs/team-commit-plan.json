@@ -1,0 +1,803 @@
+{
+  "baseCommit": "a53d4f9edc6c96935e93a2ded390de27dec78652",
+  "note": "Already merged application files are listed for future genuine work; staging unchanged files does not create commits. No teammate authorship is established by this manifest.",
+  "members": [
+    {
+      "username": "Jeswanth09052007",
+      "name": "Jeswanth",
+      "email": "jeswanthreddyreddem@gmail.com",
+      "actor": "Learner",
+      "branch": "feature/learner-jeswanth",
+      "exclusiveFiles": [
+        "back-end/assets/catalog/nse-equities.json",
+        "back-end/routes/trading.js",
+        "back-end/services/capital.js",
+        "back-end/services/instruments.js",
+        "back-end/services/market.js",
+        "back-end/services/replay.js",
+        "back-end/services/trading.js",
+        "frontend/src/components/CandleChart.jsx",
+        "frontend/src/components/InstrumentPicker.jsx",
+        "frontend/src/components/MarketExplorerDialog.jsx",
+        "frontend/src/components/MarketFeedNotice.jsx",
+        "frontend/src/components/OrderDialog.jsx",
+        "frontend/src/components/OrderTicket.jsx",
+        "frontend/src/components/Orders.jsx",
+        "frontend/src/components/TradingSidebar.jsx",
+        "frontend/src/components/WatchlistRow.jsx",
+        "frontend/src/components/Watchlists.jsx",
+        "frontend/src/hooks/chartData.js",
+        "frontend/src/hooks/useMarket.js",
+        "frontend/src/hooks/useWatchlists.js",
+        "frontend/src/pages/Portfolio.jsx",
+        "frontend/src/pages/Trading.jsx",
+        "frontend/src/redux/slices/marketSlice.js",
+        "frontend/src/redux/slices/portfolioSlice.js",
+        "frontend/src/redux/slices/tradingSlice.js",
+        "frontend/src/redux/slices/watchlistSlice.js",
+        "frontend/src/styles/trading.css",
+        "scripts/sync-instruments.js",
+        "tests/catalog.test.js",
+        "tests/market.test.js",
+        "tests/replay.test.js",
+        "tests/trading-browser.js"
+      ],
+      "stageWholeFileCandidates": [
+        "back-end/routes/trading.js",
+        "back-end/services/capital.js",
+        "back-end/services/instruments.js",
+        "back-end/services/market.js",
+        "back-end/services/replay.js",
+        "back-end/services/trading.js",
+        "frontend/src/components/CandleChart.jsx",
+        "frontend/src/components/InstrumentPicker.jsx",
+        "frontend/src/components/MarketExplorerDialog.jsx",
+        "frontend/src/components/MarketFeedNotice.jsx",
+        "frontend/src/components/OrderDialog.jsx",
+        "frontend/src/components/OrderTicket.jsx",
+        "frontend/src/components/Orders.jsx",
+        "frontend/src/components/TradingSidebar.jsx",
+        "frontend/src/components/WatchlistRow.jsx",
+        "frontend/src/components/Watchlists.jsx",
+        "frontend/src/hooks/chartData.js",
+        "frontend/src/hooks/useMarket.js",
+        "frontend/src/hooks/useWatchlists.js",
+        "frontend/src/pages/Portfolio.jsx",
+        "frontend/src/pages/Trading.jsx",
+        "frontend/src/redux/slices/marketSlice.js",
+        "frontend/src/redux/slices/portfolioSlice.js",
+        "frontend/src/redux/slices/tradingSlice.js",
+        "frontend/src/redux/slices/watchlistSlice.js",
+        "frontend/src/styles/trading.css",
+        "scripts/sync-instruments.js",
+        "tests/catalog.test.js",
+        "tests/market.test.js",
+        "tests/replay.test.js",
+        "tests/trading-browser.js"
+      ],
+      "sharedFiles": [
+        {
+          "path": ".github/CODEOWNERS",
+          "scope": "Shared module ownership policy; review responsibilities do not assign commit authorship"
+        },
+        {
+          "path": "TEAM_CONTRIBUTIONS.md",
+          "scope": "Update only the corresponding actual contribution/coordination record"
+        },
+        {
+          "path": "back-end/seed.js",
+          "scope": "Market/trading fixtures"
+        },
+        {
+          "path": "back-end/server.js",
+          "scope": "Trading worker lifecycle"
+        },
+        {
+          "path": "docs/team-ownership.json",
+          "scope": "Team ownership agreement; update only genuine agreed responsibilities"
+        },
+        {
+          "path": "frontend/src/components/Common.jsx",
+          "scope": "Trading/result consumers"
+        },
+        {
+          "path": "frontend/src/main.jsx",
+          "scope": "Trading routes"
+        },
+        {
+          "path": "frontend/src/pages/Guidance.jsx",
+          "scope": "Learner request behavior"
+        },
+        {
+          "path": "frontend/src/pages/Overview.jsx",
+          "scope": "LearnerOverview()"
+        },
+        {
+          "path": "frontend/src/pages/Quizzes.jsx",
+          "scope": "Learner response interaction review"
+        },
+        {
+          "path": "frontend/src/redux/routes.js",
+          "scope": "Trading endpoints"
+        },
+        {
+          "path": "frontend/src/redux/selectors/index.js",
+          "scope": "Quotes/watchlists derivations"
+        },
+        {
+          "path": "frontend/src/redux/utilities/runtime.js",
+          "scope": "Quote polling and stale/overlap safeguards"
+        },
+        {
+          "path": "tests/api.test.js",
+          "scope": "Trading correctness test blocks"
+        },
+        {
+          "path": "tests/browser.js",
+          "scope": "Learner/trading/watchlist browser sections"
+        },
+        {
+          "path": "tests/expanded.test.js",
+          "scope": "Paper funding/trading scenarios"
+        },
+        {
+          "path": "tests/redux-api.test.js",
+          "scope": "Trading coverage"
+        },
+        {
+          "path": "tests/redux.test.js",
+          "scope": "Quote/watchlist/polling cases"
+        }
+      ],
+      "tests": [
+        "npm test",
+        "npm run build",
+        "npm run test:trading-ui"
+      ],
+      "eligiblePendingImplementationChanges": [],
+      "suggestedCommitSubject": "feat(trading): improve reviewed Redux trading and watchlist workflows"
+    },
+    {
+      "username": "me-coder7",
+      "name": "Praneeth",
+      "email": "174439533+me-coder7@users.noreply.github.com",
+      "actor": "Instructor",
+      "branch": "feature/instructor-praneeth",
+      "exclusiveFiles": [
+        "back-end/routes/guidance.js",
+        "back-end/routes/quizzes.js",
+        "frontend/src/components/QuizAttempt.jsx",
+        "frontend/src/components/QuizAttempts.jsx",
+        "frontend/src/components/QuizBuilderForm.jsx",
+        "frontend/src/components/QuizResponse.jsx",
+        "frontend/src/pages/Learners.jsx",
+        "frontend/src/pages/Tasks.jsx",
+        "frontend/src/redux/slices/guidanceSlice.js",
+        "frontend/src/redux/slices/quizSlice.js",
+        "frontend/src/redux/slices/taskSlice.js"
+      ],
+      "stageWholeFileCandidates": [
+        "back-end/routes/guidance.js",
+        "back-end/routes/quizzes.js",
+        "frontend/src/components/QuizAttempt.jsx",
+        "frontend/src/components/QuizAttempts.jsx",
+        "frontend/src/components/QuizBuilderForm.jsx",
+        "frontend/src/components/QuizResponse.jsx",
+        "frontend/src/pages/Learners.jsx",
+        "frontend/src/pages/Tasks.jsx",
+        "frontend/src/redux/slices/guidanceSlice.js",
+        "frontend/src/redux/slices/quizSlice.js",
+        "frontend/src/redux/slices/taskSlice.js"
+      ],
+      "sharedFiles": [
+        {
+          "path": ".github/CODEOWNERS",
+          "scope": "Shared module ownership policy; review responsibilities do not assign commit authorship"
+        },
+        {
+          "path": "TEAM_CONTRIBUTIONS.md",
+          "scope": "Update only the corresponding actual contribution/coordination record"
+        },
+        {
+          "path": "back-end/routes/learning.js",
+          "scope": "Tasks/assignments/submissions/milestones/learning-plan blocks"
+        },
+        {
+          "path": "back-end/routes/members.js",
+          "scope": "Teaching roster and paper-fund award routes"
+        },
+        {
+          "path": "back-end/seed.js",
+          "scope": "Teaching fixtures"
+        },
+        {
+          "path": "back-end/services/access.js",
+          "scope": "Guidance eligibility and relationship reconciliation"
+        },
+        {
+          "path": "back-end/services/learning-access.js",
+          "scope": "Quiz/assignment/submission access"
+        },
+        {
+          "path": "docs/team-ownership.json",
+          "scope": "Team ownership agreement; update only genuine agreed responsibilities"
+        },
+        {
+          "path": "frontend/src/components/Common.jsx",
+          "scope": "Assessment form consumers"
+        },
+        {
+          "path": "frontend/src/main.jsx",
+          "scope": "Teaching routes"
+        },
+        {
+          "path": "frontend/src/pages/Guidance.jsx",
+          "scope": "Directory/Guidance request and roster workflows"
+        },
+        {
+          "path": "frontend/src/pages/Overview.jsx",
+          "scope": "InstructorSummary()"
+        },
+        {
+          "path": "frontend/src/pages/Quizzes.jsx",
+          "scope": "Quizzes/Quiz/QuizBuilder and assessment integration"
+        },
+        {
+          "path": "frontend/src/redux/routes.js",
+          "scope": "Teaching endpoints"
+        },
+        {
+          "path": "tests/browser.js",
+          "scope": "Instructor/guidance/assessment browser sections"
+        },
+        {
+          "path": "tests/expanded.test.js",
+          "scope": "Instructor guidance, tasks and assessment scenarios"
+        },
+        {
+          "path": "tests/redux-api.test.js",
+          "scope": "Assignments/quizzes coverage"
+        }
+      ],
+      "tests": [
+        "npm test",
+        "npm run build",
+        "npm run test:e2e"
+      ],
+      "eligiblePendingImplementationChanges": [],
+      "suggestedCommitSubject": "feat(teaching): improve reviewed guidance assignments and quiz thunks"
+    },
+    {
+      "username": "Purvaj-P22",
+      "name": "Purvaj",
+      "email": "pentapurvaj07@gmail.com",
+      "actor": "Course Provider",
+      "branch": "feature/course-provider-purvaj",
+      "exclusiveFiles": [
+        "back-end/assets/paper-trading-tutorial.mp4",
+        "back-end/assets/trading-guide.pdf",
+        "back-end/routes/resources.js",
+        "back-end/services/resources.js",
+        "frontend/src/components/HomePreview.jsx",
+        "frontend/src/components/Resources.jsx",
+        "frontend/src/pages/Courses.jsx",
+        "frontend/src/pages/Home.jsx",
+        "frontend/src/redux/slices/courseSlice.js",
+        "frontend/src/redux/slices/resourceSlice.js",
+        "frontend/src/styles/home.css"
+      ],
+      "stageWholeFileCandidates": [
+        "back-end/routes/resources.js",
+        "back-end/services/resources.js",
+        "frontend/src/components/HomePreview.jsx",
+        "frontend/src/components/Resources.jsx",
+        "frontend/src/pages/Courses.jsx",
+        "frontend/src/pages/Home.jsx",
+        "frontend/src/redux/slices/courseSlice.js",
+        "frontend/src/redux/slices/resourceSlice.js",
+        "frontend/src/styles/home.css"
+      ],
+      "sharedFiles": [
+        {
+          "path": ".github/CODEOWNERS",
+          "scope": "Shared module ownership policy; review responsibilities do not assign commit authorship"
+        },
+        {
+          "path": "TEAM_CONTRIBUTIONS.md",
+          "scope": "Update only the corresponding actual contribution/coordination record"
+        },
+        {
+          "path": "back-end/routes/learning.js",
+          "scope": "Course/lesson/enrollment/review route blocks"
+        },
+        {
+          "path": "back-end/routes/provider.js",
+          "scope": "GET /provider, GET/POST /courses/:id/terms, POST /courses/:id/terms/respond; provider-side visibility/ownership"
+        },
+        {
+          "path": "back-end/seed.js",
+          "scope": "Course/media fixtures"
+        },
+        {
+          "path": "back-end/services/access.js",
+          "scope": "Course access eligibility"
+        },
+        {
+          "path": "back-end/services/learning-access.js",
+          "scope": "Course/lesson/resource ownership and enrollment access"
+        },
+        {
+          "path": "docs/team-ownership.json",
+          "scope": "Team ownership agreement; update only genuine agreed responsibilities"
+        },
+        {
+          "path": "frontend/src/components/Common.jsx",
+          "scope": "Course form consumers"
+        },
+        {
+          "path": "frontend/src/hooks/request.js",
+          "scope": "Raw upload headers"
+        },
+        {
+          "path": "frontend/src/main.jsx",
+          "scope": "Course routes"
+        },
+        {
+          "path": "frontend/src/pages/Guidance.jsx",
+          "scope": "Provider relationship behavior"
+        },
+        {
+          "path": "frontend/src/pages/Overview.jsx",
+          "scope": "Provider overview links"
+        },
+        {
+          "path": "frontend/src/pages/Provider.jsx",
+          "scope": "Provider(): course dashboard and provider-side proposal forms"
+        },
+        {
+          "path": "frontend/src/pages/Quizzes.jsx",
+          "scope": "Course-scoped audience and Resources integration"
+        },
+        {
+          "path": "frontend/src/redux/routes.js",
+          "scope": "Course/media endpoints"
+        },
+        {
+          "path": "tests/browser.js",
+          "scope": "Course/provider browser sections"
+        },
+        {
+          "path": "tests/expanded.test.js",
+          "scope": "Provider course/resource scenarios"
+        },
+        {
+          "path": "tests/redux-api.test.js",
+          "scope": "Course/media coverage"
+        },
+        {
+          "path": "tests/redux.test.js",
+          "scope": "Course CRUD cases"
+        }
+      ],
+      "tests": [
+        "npm test",
+        "npm run build",
+        "npm run test:e2e"
+      ],
+      "eligiblePendingImplementationChanges": [],
+      "suggestedCommitSubject": "feat(learning): improve reviewed course CRUD and media workflows"
+    },
+    {
+      "username": "BharanRajP",
+      "name": "Bharan",
+      "email": "bharanraj.p24@iiits.in",
+      "actor": "User Admin + Super Admin",
+      "branch": "feature/admin-bharan",
+      "exclusiveFiles": [
+        ".env.example",
+        "CONTRIBUTING.md",
+        "GITHUB_MIGRATION_REPORT.md",
+        "README.md",
+        "REDUX_ARCHITECTURE.md",
+        "REDUX_MIGRATION_REPORT.md",
+        "REDUX_VIVA_GUIDE.md",
+        "THIRD_PARTY_NOTICES.md",
+        "back-end/migrations/001-initial.sql",
+        "back-end/migrations/002-staff-and-plans.sql",
+        "back-end/migrations/003-learning-and-member-tools.sql",
+        "back-end/migrations/004-merged-roles.sql",
+        "back-end/migrations/005-instructor-starters.sql",
+        "back-end/migrations/006-replay-order-scope.sql",
+        "back-end/migrations/007-notification-delivery.sql",
+        "back-end/migrations/008-unified-admin.sql",
+        "back-end/routes/auth.js",
+        "back-end/routes/operations.js",
+        "back-end/services/auth.js",
+        "back-end/validation.js",
+        "docs/api.md",
+        "docs/github-file-comparison.csv",
+        "docs/github-migration-statistics.json",
+        "docs/github-original-contributions.json",
+        "docs/github-verification.json",
+        "docs/npm-audit.json",
+        "docs/redux-verification.json",
+        "docs/verification.md",
+        "docs/workflows.md",
+        "frontend/src/components/DemoLogins.jsx",
+        "frontend/src/components/ProfileDialog.jsx",
+        "frontend/src/components/Shell.jsx",
+        "frontend/src/hooks/useDemoLogin.js",
+        "frontend/src/pages/Auth.jsx",
+        "frontend/src/pages/Members.jsx",
+        "frontend/src/redux/slices/authSlice.js",
+        "frontend/src/redux/slices/dashboardSlice.js",
+        "frontend/src/redux/slices/notificationSlice.js",
+        "frontend/src/redux/slices/supportSlice.js",
+        "frontend/src/redux/slices/userSlice.js",
+        "frontend/src/styles/auth.css",
+        "scripts/provision-staff.js",
+        "scripts/setup.js"
+      ],
+      "stageWholeFileCandidates": [
+        ".env.example",
+        "back-end/migrations/001-initial.sql",
+        "back-end/migrations/002-staff-and-plans.sql",
+        "back-end/migrations/003-learning-and-member-tools.sql",
+        "back-end/migrations/004-merged-roles.sql",
+        "back-end/migrations/005-instructor-starters.sql",
+        "back-end/migrations/006-replay-order-scope.sql",
+        "back-end/migrations/007-notification-delivery.sql",
+        "back-end/migrations/008-unified-admin.sql",
+        "back-end/routes/auth.js",
+        "back-end/routes/operations.js",
+        "back-end/services/auth.js",
+        "back-end/validation.js",
+        "frontend/src/components/DemoLogins.jsx",
+        "frontend/src/components/ProfileDialog.jsx",
+        "frontend/src/components/Shell.jsx",
+        "frontend/src/hooks/useDemoLogin.js",
+        "frontend/src/pages/Auth.jsx",
+        "frontend/src/pages/Members.jsx",
+        "frontend/src/redux/slices/authSlice.js",
+        "frontend/src/redux/slices/dashboardSlice.js",
+        "frontend/src/redux/slices/notificationSlice.js",
+        "frontend/src/redux/slices/supportSlice.js",
+        "frontend/src/redux/slices/userSlice.js",
+        "frontend/src/styles/auth.css",
+        "scripts/provision-staff.js",
+        "scripts/setup.js"
+      ],
+      "sharedFiles": [
+        {
+          "path": ".github/CODEOWNERS",
+          "scope": "Shared module ownership policy; review responsibilities do not assign commit authorship"
+        },
+        {
+          "path": "TEAM_CONTRIBUTIONS.md",
+          "scope": "Update only the corresponding actual contribution/coordination record"
+        },
+        {
+          "path": "back-end/app.js",
+          "scope": "Authentication/security middleware and route registration"
+        },
+        {
+          "path": "back-end/config.js",
+          "scope": "Session, environment and deployment defaults"
+        },
+        {
+          "path": "back-end/db.js",
+          "scope": "Database/transaction owner; shared schema coordination"
+        },
+        {
+          "path": "back-end/routes/members.js",
+          "scope": "Member CRUD/status/permission/session/notes routes"
+        },
+        {
+          "path": "back-end/seed.js",
+          "scope": "Common seed/schema coordination"
+        },
+        {
+          "path": "back-end/server.js",
+          "scope": "API startup/readiness and shutdown"
+        },
+        {
+          "path": "back-end/services/access.js",
+          "scope": "Identity, approval and administrative access rules"
+        },
+        {
+          "path": "docs/team-ownership.json",
+          "scope": "Team ownership agreement; update only genuine agreed responsibilities"
+        },
+        {
+          "path": "frontend/src/components/Common.jsx",
+          "scope": "Validation/security/error review"
+        },
+        {
+          "path": "frontend/src/hooks/api.js",
+          "scope": "Transport/security review"
+        },
+        {
+          "path": "frontend/src/hooks/request.js",
+          "scope": "Cookie/header/timeout/error boundaries"
+        },
+        {
+          "path": "frontend/src/main.jsx",
+          "scope": "Workspace/Gate/auth redirects"
+        },
+        {
+          "path": "frontend/src/pages/Operations.jsx",
+          "scope": "Notifications/Broadcast/Support/Ticket and account/staff/course queues"
+        },
+        {
+          "path": "frontend/src/pages/Overview.jsx",
+          "scope": "Overview role gates and admin/shared composition"
+        },
+        {
+          "path": "frontend/src/redux/hooks.js",
+          "scope": "Cancellation/session review"
+        },
+        {
+          "path": "frontend/src/redux/routes.js",
+          "scope": "Auth/admin mappings"
+        },
+        {
+          "path": "frontend/src/redux/selectors/index.js",
+          "scope": "Current-user/theme review"
+        },
+        {
+          "path": "frontend/src/redux/store.js",
+          "scope": "Session resets, permissions and private-state review"
+        },
+        {
+          "path": "frontend/src/redux/utilities/requests.js",
+          "scope": "Secret handling, session epoch and cancellation review"
+        },
+        {
+          "path": "frontend/src/redux/utilities/resourceState.js",
+          "scope": "Request-ID and invalidation correctness review"
+        },
+        {
+          "path": "frontend/src/redux/utilities/runtime.js",
+          "scope": "Logout/disposal and obsolete-session behavior"
+        },
+        {
+          "path": "frontend/src/redux/utilities/session.js",
+          "scope": "Session reset/expiry action contract"
+        },
+        {
+          "path": "package-lock.json",
+          "scope": "Dependency/security review; excluded from source-work counts"
+        },
+        {
+          "path": "package.json",
+          "scope": "Security/configuration review"
+        },
+        {
+          "path": "tests/api.test.js",
+          "scope": "Authentication/admin/authorization test blocks"
+        },
+        {
+          "path": "tests/browser.js",
+          "scope": "Auth/member/admin/support/notification sections"
+        },
+        {
+          "path": "tests/expanded.test.js",
+          "scope": "Member administration scenarios"
+        },
+        {
+          "path": "tests/notifications.test.js",
+          "scope": "Inbox, broadcasts and permissions"
+        },
+        {
+          "path": "tests/redux-api.test.js",
+          "scope": "Auth/member/support coverage"
+        },
+        {
+          "path": "tests/redux.test.js",
+          "scope": "Session/auth isolation cases"
+        }
+      ],
+      "tests": [
+        "npm test",
+        "npm run build",
+        "npm run test:e2e"
+      ],
+      "eligiblePendingImplementationChanges": [],
+      "suggestedCommitSubject": "feat(admin): improve reviewed sessions members and support workflows"
+    },
+    {
+      "username": "gurwinder-s24",
+      "name": "Gurwinder",
+      "email": "gaurav98498@gmail.com",
+      "actor": "Payment Admin",
+      "branch": "feature/payments-gurwinder",
+      "exclusiveFiles": [
+        ".gitignore",
+        ".node-version",
+        ".nvmrc",
+        "back-end/routes/payments.js",
+        "back-end/services/payments.js",
+        "frontend/index.html",
+        "frontend/src/components/Icon.jsx",
+        "frontend/src/components/ThemeToggle.jsx",
+        "frontend/src/hooks/useTheme.jsx",
+        "frontend/src/pages/Plans.jsx",
+        "frontend/src/redux/slices/commerceSlice.js",
+        "frontend/src/redux/slices/paymentSlice.js",
+        "frontend/src/redux/slices/themeSlice.js",
+        "frontend/src/style.css",
+        "frontend/vite.config.js",
+        "scripts/Stage-Migration.ps1",
+        "scripts/Summarize-Contributions.ps1",
+        "scripts/Test-StagedSecrets.ps1",
+        "scripts/check-catalog-ui.js",
+        "scripts/dev.js",
+        "scripts/smoke.js",
+        "vitest.config.js",
+        "back-end/services/subscription-reminders.js"
+      ],
+      "stageWholeFileCandidates": [
+        ".gitignore",
+        ".node-version",
+        ".nvmrc",
+        "back-end/routes/payments.js",
+        "back-end/services/payments.js",
+        "frontend/index.html",
+        "frontend/src/components/Icon.jsx",
+        "frontend/src/components/ThemeToggle.jsx",
+        "frontend/src/hooks/useTheme.jsx",
+        "frontend/src/pages/Plans.jsx",
+        "frontend/src/redux/slices/commerceSlice.js",
+        "frontend/src/redux/slices/paymentSlice.js",
+        "frontend/src/redux/slices/themeSlice.js",
+        "frontend/src/style.css",
+        "frontend/vite.config.js",
+        "scripts/Stage-Migration.ps1",
+        "scripts/Summarize-Contributions.ps1",
+        "scripts/Test-StagedSecrets.ps1",
+        "scripts/check-catalog-ui.js",
+        "scripts/dev.js",
+        "scripts/smoke.js",
+        "vitest.config.js",
+        "back-end/services/subscription-reminders.js"
+      ],
+      "sharedFiles": [
+        {
+          "path": ".github/CODEOWNERS",
+          "scope": "Shared module ownership policy; review responsibilities do not assign commit authorship"
+        },
+        {
+          "path": "TEAM_CONTRIBUTIONS.md",
+          "scope": "Update only the corresponding actual contribution/coordination record"
+        },
+        {
+          "path": "back-end/app.js",
+          "scope": "Payment webhook registration ordering and shared serving integration"
+        },
+        {
+          "path": "back-end/config.js",
+          "scope": "Payment provider, prices and billing environment settings"
+        },
+        {
+          "path": "back-end/db.js",
+          "scope": "Financial transaction review"
+        },
+        {
+          "path": "back-end/routes/provider.js",
+          "scope": "GET /commerce, POST /commerce/:id/decision and /earning, POST /settlements/:id/paid; financial rules"
+        },
+        {
+          "path": "back-end/seed.js",
+          "scope": "Payment/commerce fixtures"
+        },
+        {
+          "path": "back-end/server.js",
+          "scope": "Billing reminder worker lifecycle"
+        },
+        {
+          "path": "back-end/services/access.js",
+          "scope": "Paid-plan entitlement boundaries"
+        },
+        {
+          "path": "docs/team-ownership.json",
+          "scope": "Team ownership agreement; update only genuine agreed responsibilities"
+        },
+        {
+          "path": "frontend/src/components/Common.jsx",
+          "scope": "Form/Action/Result and reusable props contracts"
+        },
+        {
+          "path": "frontend/src/hooks/api.js",
+          "scope": "Shared Redux-backed hooks and formatting exports"
+        },
+        {
+          "path": "frontend/src/hooks/request.js",
+          "scope": "JSON/upload transport integration"
+        },
+        {
+          "path": "frontend/src/main.jsx",
+          "scope": "Provider/router/lazy page integration"
+        },
+        {
+          "path": "frontend/src/pages/Operations.jsx",
+          "scope": "AdminActions(): payment queue and refunds; shared queue integration"
+        },
+        {
+          "path": "frontend/src/pages/Provider.jsx",
+          "scope": "Commerce(): admin licensing and settlement workflows; provider commercial callbacks"
+        },
+        {
+          "path": "frontend/src/redux/hooks.js",
+          "scope": "Subscriptions and operation-specific action hooks"
+        },
+        {
+          "path": "frontend/src/redux/routes.js",
+          "scope": "Endpoint routing and targeted refresh integration"
+        },
+        {
+          "path": "frontend/src/redux/selectors/index.js",
+          "scope": "Selector contracts"
+        },
+        {
+          "path": "frontend/src/redux/store.js",
+          "scope": "Central reducer/middleware integration"
+        },
+        {
+          "path": "frontend/src/redux/utilities/requests.js",
+          "scope": "Thunk transport/error/token-mailbox integration"
+        },
+        {
+          "path": "frontend/src/redux/utilities/resourceState.js",
+          "scope": "Shared request lifecycle/CRUD reconciliation contract"
+        },
+        {
+          "path": "frontend/src/redux/utilities/runtime.js",
+          "scope": "Shared subscription/polling coordinator"
+        },
+        {
+          "path": "frontend/src/redux/utilities/session.js",
+          "scope": "Store integration consumers"
+        },
+        {
+          "path": "package-lock.json",
+          "scope": "Generated lockfile paired with actual package.json dependency changes"
+        },
+        {
+          "path": "package.json",
+          "scope": "Dependency/script integration; only actual dependency changes"
+        },
+        {
+          "path": "tests/api.test.js",
+          "scope": "Payment/refund test blocks"
+        },
+        {
+          "path": "tests/browser.js",
+          "scope": "Plan/checkout/commerce sections"
+        },
+        {
+          "path": "tests/expanded.test.js",
+          "scope": "Commerce/payment scenarios"
+        },
+        {
+          "path": "tests/notifications.test.js",
+          "scope": "Subscription reminder delivery/idempotency"
+        },
+        {
+          "path": "tests/redux-api.test.js",
+          "scope": "Full-stack integration harness"
+        },
+        {
+          "path": "tests/redux.test.js",
+          "scope": "Shared store/request middleware integration harness"
+        }
+      ],
+      "tests": [
+        "npm test",
+        "npm run build",
+        "npm run test:e2e"
+      ],
+      "eligiblePendingImplementationChanges": [],
+      "suggestedCommitSubject": "feat(billing): improve reviewed checkout commerce and integration"
+    }
+  ]
+}

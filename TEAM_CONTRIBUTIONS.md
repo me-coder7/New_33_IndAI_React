@@ -728,3 +728,22 @@ The command blocks retain the actual integrator as committer and name a teammate
 Use a Co-authored-by trailer only when the named people actually developed the same change and agreed to attribution. Shared files use function-level review and git add -p, not competing full-file replacements. Do not claim any proposed future exercise as completed work.
 
 The Contributors graph generally reflects commits merged into the default branch and linked account emails; cached results can lag. See [GitHub's contributor documentation](https://docs.github.com/en/enterprise-cloud%40latest/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors), [email and branch contribution rules](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/troubleshooting-missing-contributions), and [statistics cache behavior](https://docs.github.com/en/rest/metrics/statistics).
+
+
+## Confirmed module ownership and prepared work branches
+
+The coordinator explicitly confirmed the following allocation. These local branches start from the current merged Redux main; creating a branch does not add a commit or establish authorship.
+
+| GitHub account | Module | Local work branch |
+| --- | --- | --- |
+| Jeswanth09052007 | Learner | `feature/learner-jeswanth` |
+| me-coder7 | Instructor | `feature/instructor-praneeth` |
+| Purvaj-P22 | Course Provider | `feature/course-provider-purvaj` |
+| BharanRajP | User Admin + Super Admin | `feature/admin-bharan` |
+| gurwinder-s24 | Payment Admin | `feature/payments-gurwinder` |
+
+Each member implements or meaningfully revises their module's agreed change and authorizes their commit. Existing imported code is not retroactively attributed to five names. Shared Provider, Operations, Quizzes, Guidance and infrastructure files retain function-level coordination and partial staging.
+
+The draft `.github/CODEOWNERS` mirrors this allocation. GitHub uses CODEOWNERS from a pull request's base branch and requires listed owners to have write access. Those access settings have not been verified or changed here. This draft must be reviewed and committed before it can take effect on GitHub.
+
+See [TEAM_COMMIT_PLAN.md](TEAM_COMMIT_PLAN.md) for the current detailed primary/shared file lists, actual exports, partial-staging scopes, and executable per-member commit commands. The plan does not assert new teammate authorship.

@@ -76,5 +76,18 @@
     "Original NestJS branch runtime suite",
     "Original-versus-new visual pixel comparison"
   ],
-  "source": "Tests rerun in the actual imported clone; earlier release-only claims were not substituted for this verification."
+  "source": "Tests rerun in the actual imported clone; earlier release-only claims were not substituted for this verification.",
+  "remoteVerification": {
+    "sourceImportCommit": "ae0cd01f0cafad4e038183d22843089f232e8db6",
+    "originalMain": "82fbbea349aab6014f152d15742d531060f52626",
+    "sourceParentPreserved": true,
+    "githubAuthorLogin": "me-coder7",
+    "baselineTag": "pre-redux-82fbbea",
+    "baselineTagTarget": "82fbbea349aab6014f152d15742d531060f52626",
+    "privateGeneratedPathMatches": 0,
+    "requiredSourceAndReportFilesPresent": true,
+    "verificationMethod": "git ls-remote plus public GitHub commit and recursive tree APIs",
+    "defaultBranchMerge": "awaiting explicit approval",
+    "finalReleaseTag": "deferred until approved integration"
+  }
 }

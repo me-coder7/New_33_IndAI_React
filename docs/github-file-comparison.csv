@@ -10,8 +10,8 @@ Dockerfile,D,configuration,gurwinder-s24,0,17,False,False
 GITHUB_MIGRATION_REPORT.md,A,documentation,BharanRajP,258,0,False,False
 INDIVIDUAL_CONTRIBUTION.md,D,documentation,BharanRajP,0,13,False,False
 README.md,M,documentation,BharanRajP,175,158,False,False
-REDUX_ARCHITECTURE.md,A,documentation,BharanRajP,302,0,False,False
-REDUX_MIGRATION_REPORT.md,A,documentation,BharanRajP,207,0,False,False
+REDUX_ARCHITECTURE.md,A,documentation,BharanRajP,304,0,False,False
+REDUX_MIGRATION_REPORT.md,A,documentation,BharanRajP,209,0,False,False
 REDUX_VIVA_GUIDE.md,A,documentation,BharanRajP,178,0,False,False
 START_HERE.md,D,documentation,BharanRajP,0,13,False,False
 START_WINDOWS.bat,D,source,BharanRajP,0,6,False,False
@@ -230,7 +230,7 @@ docs/DEMO_DATA_TEST_REPORT.md,D,documentation,BharanRajP,0,64,False,False
 docs/TEAM.md,D,documentation,BharanRajP,0,34,False,False
 docs/TESTING.md,D,documentation,BharanRajP,0,59,False,False
 docs/api.md,A,documentation,BharanRajP,42,0,False,False
-docs/github-file-comparison.csv,A,documentation,BharanRajP,405,0,False,False
+docs/github-file-comparison.csv,A,documentation,BharanRajP,409,0,False,False
 docs/github-migration-statistics.json,A,documentation,BharanRajP,185,0,False,False
 docs/github-original-contributions.json,A,documentation,BharanRajP,143,0,False,False
 docs/github-verification.json,A,documentation,BharanRajP,80,0,False,False

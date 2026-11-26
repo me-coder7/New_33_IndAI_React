@@ -466,6 +466,29 @@ APIs: `/auth/login`, `/auth/register`, `/auth/verify`, `/auth/logout`, `/me`, `/
 5. Improve a role-forbidden state without weakening backend checks.
 
 
+### Additional primary configuration/documentation files
+
+- `.env.example`
+- `CONTRIBUTING.md`
+- `GITHUB_MIGRATION_REPORT.md`
+- `README.md`
+- `REDUX_ARCHITECTURE.md`
+- `REDUX_MIGRATION_REPORT.md`
+- `REDUX_VIVA_GUIDE.md`
+- `TEAM_CONTRIBUTIONS.md`
+- `THIRD_PARTY_NOTICES.md`
+- `docs/api.md`
+- `docs/github-file-comparison.csv`
+- `docs/github-migration-statistics.json`
+- `docs/github-original-contributions.json`
+- `docs/github-verification.json`
+- `docs/npm-audit.json`
+- `docs/redux-verification.json`
+- `docs/team-ownership.json`
+- `docs/verification.md`
+- `docs/workflows.md`
+
+
 ### Exact PowerShell commands for future genuine work
 
 These commands were **not** executed to fabricate five commits. Run from a clean worktree when the member is ready to work; preserve any unrelated edits and stage only reviewed hunks. No change means no commit.
@@ -478,6 +501,7 @@ if (git branch --list $memberBranch) { git switch $memberBranch } else { git swi
 # Perform and review an actual change first. Run these staging commands only
 # for genuine work by this member, with their authorization.
 $ownedPaths = @(
+    '.env.example',
     'back-end/app.js',
     'back-end/config.js',
     'back-end/migrations/001-initial.sql',
@@ -614,6 +638,16 @@ APIs: `/plans`, `/payments`, `/payments/:id/demo`, `/payments/:id/reconcile`, `/
 5. Test a rejected refund preserving recorded payment data.
 
 
+### Additional primary configuration/documentation files
+
+- `.gitignore`
+- `.node-version`
+- `.nvmrc`
+- `package-lock.json`
+- `package.json`
+- `vitest.config.js`
+
+
 ### Exact PowerShell commands for future genuine work
 
 These commands were **not** executed to fabricate five commits. Run from a clean worktree when the member is ready to work; preserve any unrelated edits and stage only reviewed hunks. No change means no commit.
@@ -626,6 +660,9 @@ if (git branch --list $memberBranch) { git switch $memberBranch } else { git swi
 # Perform and review an actual change first. Run these staging commands only
 # for genuine work by this member, with their authorization.
 $ownedPaths = @(
+    '.gitignore',
+    '.node-version',
+    '.nvmrc',
     'back-end/routes/payments.js',
     'back-end/routes/provider.js',
     'back-end/services/payments.js',
@@ -643,6 +680,8 @@ $ownedPaths = @(
     'frontend/src/redux/utilities/session.js',
     'frontend/src/style.css',
     'frontend/vite.config.js',
+    'package-lock.json',
+    'package.json',
     'scripts/Stage-Migration.ps1',
     'scripts/Summarize-Contributions.ps1',
     'scripts/Test-StagedSecrets.ps1',
@@ -650,7 +689,8 @@ $ownedPaths = @(
     'scripts/dev.js',
     'scripts/smoke.js',
     'tests/browser.js',
-    'tests/redux.test.js'
+    'tests/redux.test.js',
+    'vitest.config.js'
 )
 git --literal-pathspecs add -- @ownedPaths
 git add -p -- 'frontend/src/pages/Provider.jsx' # stage only the assigned reviewed functions

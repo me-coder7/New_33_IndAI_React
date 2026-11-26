@@ -1,0 +1,206 @@
+# Confirmed module ownership. This routes review; it is not commit attribution.
+* @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+
+# Jeswanth09052007 - Learner
+/back-end/assets/catalog/nse-equities.json @Jeswanth09052007
+/back-end/routes/trading.js @Jeswanth09052007
+/back-end/services/capital.js @Jeswanth09052007
+/back-end/services/instruments.js @Jeswanth09052007
+/back-end/services/market.js @Jeswanth09052007
+/back-end/services/replay.js @Jeswanth09052007
+/back-end/services/trading.js @Jeswanth09052007
+/frontend/src/components/CandleChart.jsx @Jeswanth09052007
+/frontend/src/components/InstrumentPicker.jsx @Jeswanth09052007
+/frontend/src/components/MarketExplorerDialog.jsx @Jeswanth09052007
+/frontend/src/components/MarketFeedNotice.jsx @Jeswanth09052007
+/frontend/src/components/OrderDialog.jsx @Jeswanth09052007
+/frontend/src/components/OrderTicket.jsx @Jeswanth09052007
+/frontend/src/components/Orders.jsx @Jeswanth09052007
+/frontend/src/components/TradingSidebar.jsx @Jeswanth09052007
+/frontend/src/components/WatchlistRow.jsx @Jeswanth09052007
+/frontend/src/components/Watchlists.jsx @Jeswanth09052007
+/frontend/src/hooks/chartData.js @Jeswanth09052007
+/frontend/src/hooks/useMarket.js @Jeswanth09052007
+/frontend/src/hooks/useWatchlists.js @Jeswanth09052007
+/frontend/src/pages/Portfolio.jsx @Jeswanth09052007
+/frontend/src/pages/Trading.jsx @Jeswanth09052007
+/frontend/src/redux/slices/marketSlice.js @Jeswanth09052007
+/frontend/src/redux/slices/portfolioSlice.js @Jeswanth09052007
+/frontend/src/redux/slices/tradingSlice.js @Jeswanth09052007
+/frontend/src/redux/slices/watchlistSlice.js @Jeswanth09052007
+/frontend/src/styles/trading.css @Jeswanth09052007
+/scripts/sync-instruments.js @Jeswanth09052007
+/tests/catalog.test.js @Jeswanth09052007
+/tests/market.test.js @Jeswanth09052007
+/tests/replay.test.js @Jeswanth09052007
+/tests/trading-browser.js @Jeswanth09052007
+# me-coder7 - Instructor
+/back-end/routes/guidance.js @me-coder7
+/back-end/routes/quizzes.js @me-coder7
+/frontend/src/components/QuizAttempt.jsx @me-coder7
+/frontend/src/components/QuizAttempts.jsx @me-coder7
+/frontend/src/components/QuizBuilderForm.jsx @me-coder7
+/frontend/src/components/QuizResponse.jsx @me-coder7
+/frontend/src/pages/Guidance.jsx @me-coder7
+/frontend/src/pages/Learners.jsx @me-coder7
+/frontend/src/pages/Quizzes.jsx @me-coder7
+/frontend/src/pages/Tasks.jsx @me-coder7
+/frontend/src/redux/slices/guidanceSlice.js @me-coder7
+/frontend/src/redux/slices/quizSlice.js @me-coder7
+/frontend/src/redux/slices/taskSlice.js @me-coder7
+/tests/expanded.test.js @me-coder7
+# Purvaj-P22 - Course Provider
+/back-end/assets/paper-trading-tutorial.mp4 @Purvaj-P22
+/back-end/assets/trading-guide.pdf @Purvaj-P22
+/back-end/routes/learning.js @Purvaj-P22
+/back-end/routes/resources.js @Purvaj-P22
+/back-end/services/learning-access.js @Purvaj-P22
+/back-end/services/resources.js @Purvaj-P22
+/frontend/src/components/HomePreview.jsx @Purvaj-P22
+/frontend/src/components/Resources.jsx @Purvaj-P22
+/frontend/src/pages/Courses.jsx @Purvaj-P22
+/frontend/src/pages/Home.jsx @Purvaj-P22
+/frontend/src/pages/Provider.jsx @Purvaj-P22
+/frontend/src/redux/slices/courseSlice.js @Purvaj-P22
+/frontend/src/redux/slices/resourceSlice.js @Purvaj-P22
+/frontend/src/styles/home.css @Purvaj-P22
+# BharanRajP - User Admin + Super Admin
+/.env.example @BharanRajP
+/CONTRIBUTING.md @BharanRajP
+/GITHUB_MIGRATION_REPORT.md @BharanRajP
+/README.md @BharanRajP
+/REDUX_ARCHITECTURE.md @BharanRajP
+/REDUX_MIGRATION_REPORT.md @BharanRajP
+/REDUX_VIVA_GUIDE.md @BharanRajP
+/TEAM_CONTRIBUTIONS.md @BharanRajP
+/THIRD_PARTY_NOTICES.md @BharanRajP
+/back-end/app.js @BharanRajP
+/back-end/config.js @BharanRajP
+/back-end/db.js @BharanRajP
+/back-end/migrations/001-initial.sql @BharanRajP
+/back-end/migrations/002-staff-and-plans.sql @BharanRajP
+/back-end/migrations/003-learning-and-member-tools.sql @BharanRajP
+/back-end/migrations/004-merged-roles.sql @BharanRajP
+/back-end/migrations/005-instructor-starters.sql @BharanRajP
+/back-end/migrations/006-replay-order-scope.sql @BharanRajP
+/back-end/migrations/007-notification-delivery.sql @BharanRajP
+/back-end/migrations/008-unified-admin.sql @BharanRajP
+/back-end/routes/auth.js @BharanRajP
+/back-end/routes/members.js @BharanRajP
+/back-end/routes/operations.js @BharanRajP
+/back-end/seed.js @BharanRajP
+/back-end/server.js @BharanRajP
+/back-end/services/access.js @BharanRajP
+/back-end/services/auth.js @BharanRajP
+/back-end/validation.js @BharanRajP
+/docs/api.md @BharanRajP
+/docs/github-file-comparison.csv @BharanRajP
+/docs/github-migration-statistics.json @BharanRajP
+/docs/github-original-contributions.json @BharanRajP
+/docs/github-verification.json @BharanRajP
+/docs/npm-audit.json @BharanRajP
+/docs/redux-verification.json @BharanRajP
+/docs/team-ownership.json @BharanRajP
+/docs/verification.md @BharanRajP
+/docs/workflows.md @BharanRajP
+/frontend/src/components/DemoLogins.jsx @BharanRajP
+/frontend/src/components/ProfileDialog.jsx @BharanRajP
+/frontend/src/components/Shell.jsx @BharanRajP
+/frontend/src/hooks/useDemoLogin.js @BharanRajP
+/frontend/src/pages/Auth.jsx @BharanRajP
+/frontend/src/pages/Members.jsx @BharanRajP
+/frontend/src/pages/Operations.jsx @BharanRajP
+/frontend/src/pages/Overview.jsx @BharanRajP
+/frontend/src/redux/slices/authSlice.js @BharanRajP
+/frontend/src/redux/slices/dashboardSlice.js @BharanRajP
+/frontend/src/redux/slices/notificationSlice.js @BharanRajP
+/frontend/src/redux/slices/supportSlice.js @BharanRajP
+/frontend/src/redux/slices/userSlice.js @BharanRajP
+/frontend/src/styles/auth.css @BharanRajP
+/scripts/provision-staff.js @BharanRajP
+/scripts/setup.js @BharanRajP
+/tests/api.test.js @BharanRajP
+/tests/notifications.test.js @BharanRajP
+/tests/redux-api.test.js @BharanRajP
+# gurwinder-s24 - Payment Admin
+/.gitignore @gurwinder-s24
+/.node-version @gurwinder-s24
+/.nvmrc @gurwinder-s24
+/back-end/routes/payments.js @gurwinder-s24
+/back-end/routes/provider.js @gurwinder-s24
+/back-end/services/payments.js @gurwinder-s24
+/frontend/index.html @gurwinder-s24
+/frontend/src/components/Common.jsx @gurwinder-s24
+/frontend/src/components/Icon.jsx @gurwinder-s24
+/frontend/src/components/ThemeToggle.jsx @gurwinder-s24
+/frontend/src/hooks/api.js @gurwinder-s24
+/frontend/src/hooks/request.js @gurwinder-s24
+/frontend/src/hooks/useTheme.jsx @gurwinder-s24
+/frontend/src/main.jsx @gurwinder-s24
+/frontend/src/pages/Plans.jsx @gurwinder-s24
+/frontend/src/redux/hooks.js @gurwinder-s24
+/frontend/src/redux/routes.js @gurwinder-s24
+/frontend/src/redux/selectors/index.js @gurwinder-s24
+/frontend/src/redux/slices/commerceSlice.js @gurwinder-s24
+/frontend/src/redux/slices/paymentSlice.js @gurwinder-s24
+/frontend/src/redux/slices/themeSlice.js @gurwinder-s24
+/frontend/src/redux/store.js @gurwinder-s24
+/frontend/src/redux/utilities/requests.js @gurwinder-s24
+/frontend/src/redux/utilities/resourceState.js @gurwinder-s24
+/frontend/src/redux/utilities/runtime.js @gurwinder-s24
+/frontend/src/redux/utilities/session.js @gurwinder-s24
+/frontend/src/style.css @gurwinder-s24
+/frontend/vite.config.js @gurwinder-s24
+/package-lock.json @gurwinder-s24
+/package.json @gurwinder-s24
+/scripts/Stage-Migration.ps1 @gurwinder-s24
+/scripts/Summarize-Contributions.ps1 @gurwinder-s24
+/scripts/Test-StagedSecrets.ps1 @gurwinder-s24
+/scripts/check-catalog-ui.js @gurwinder-s24
+/scripts/dev.js @gurwinder-s24
+/scripts/smoke.js @gurwinder-s24
+/tests/browser.js @gurwinder-s24
+/tests/redux.test.js @gurwinder-s24
+/vitest.config.js @gurwinder-s24
+/back-end/services/subscription-reminders.js @gurwinder-s24
+
+# Last matching shared-file line lists every affected reviewer.
+/.github/CODEOWNERS @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/TEAM_CONTRIBUTIONS.md @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/back-end/app.js @BharanRajP @gurwinder-s24
+/back-end/config.js @BharanRajP @gurwinder-s24
+/back-end/db.js @BharanRajP @gurwinder-s24
+/back-end/routes/learning.js @me-coder7 @Purvaj-P22
+/back-end/routes/members.js @me-coder7 @BharanRajP
+/back-end/routes/provider.js @Purvaj-P22 @gurwinder-s24
+/back-end/seed.js @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/back-end/server.js @Jeswanth09052007 @BharanRajP @gurwinder-s24
+/back-end/services/access.js @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/back-end/services/learning-access.js @me-coder7 @Purvaj-P22
+/docs/team-ownership.json @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/frontend/src/components/Common.jsx @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/frontend/src/hooks/api.js @BharanRajP @gurwinder-s24
+/frontend/src/hooks/request.js @Purvaj-P22 @BharanRajP @gurwinder-s24
+/frontend/src/main.jsx @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/frontend/src/pages/Guidance.jsx @Jeswanth09052007 @me-coder7 @Purvaj-P22
+/frontend/src/pages/Operations.jsx @BharanRajP @gurwinder-s24
+/frontend/src/pages/Overview.jsx @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP
+/frontend/src/pages/Provider.jsx @Purvaj-P22 @gurwinder-s24
+/frontend/src/pages/Quizzes.jsx @Jeswanth09052007 @me-coder7 @Purvaj-P22
+/frontend/src/redux/hooks.js @BharanRajP @gurwinder-s24
+/frontend/src/redux/routes.js @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/frontend/src/redux/selectors/index.js @Jeswanth09052007 @BharanRajP @gurwinder-s24
+/frontend/src/redux/store.js @BharanRajP @gurwinder-s24
+/frontend/src/redux/utilities/requests.js @BharanRajP @gurwinder-s24
+/frontend/src/redux/utilities/resourceState.js @BharanRajP @gurwinder-s24
+/frontend/src/redux/utilities/runtime.js @Jeswanth09052007 @BharanRajP @gurwinder-s24
+/frontend/src/redux/utilities/session.js @BharanRajP @gurwinder-s24
+/package-lock.json @BharanRajP @gurwinder-s24
+/package.json @BharanRajP @gurwinder-s24
+/tests/api.test.js @Jeswanth09052007 @BharanRajP @gurwinder-s24
+/tests/browser.js @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/tests/expanded.test.js @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/tests/notifications.test.js @BharanRajP @gurwinder-s24
+/tests/redux-api.test.js @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/tests/redux.test.js @Jeswanth09052007 @Purvaj-P22 @BharanRajP @gurwinder-s24
+/.github/CODEOWNERS @Jeswanth09052007 @me-coder7 @Purvaj-P22 @BharanRajP @gurwinder-s24

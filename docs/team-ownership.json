@@ -58,8 +58,18 @@
         "frontend/src/redux/routes.js": "Trading endpoints",
         "frontend/src/redux/selectors/index.js": "Quotes/watchlists derivations",
         "back-end/seed.js": "Market/trading fixtures",
-        "tests/redux-api.test.js": "Trading coverage"
-      }
+        "tests/redux-api.test.js": "Trading coverage",
+        "back-end/server.js": "Trading worker lifecycle",
+        "tests/api.test.js": "Trading correctness test blocks",
+        "tests/expanded.test.js": "Paper funding/trading scenarios",
+        "tests/browser.js": "Learner/trading/watchlist browser sections",
+        "tests/redux.test.js": "Quote/watchlist/polling cases",
+        "frontend/src/redux/utilities/runtime.js": "Quote polling and stale/overlap safeguards",
+        ".github/CODEOWNERS": "Shared module ownership policy; review responsibilities do not assign commit authorship",
+        "docs/team-ownership.json": "Team ownership agreement; update only genuine agreed responsibilities",
+        "TEAM_CONTRIBUTIONS.md": "Update only the corresponding actual contribution/coordination record"
+      },
+      "workBranch": "feature/learner-jeswanth"
     },
     {
       "number": 2,
@@ -73,7 +83,6 @@
       "files": [
         "back-end/routes/guidance.js",
         "back-end/routes/quizzes.js",
-        "back-end/services/subscription-reminders.js",
         "frontend/src/components/QuizAttempt.jsx",
         "frontend/src/components/QuizAttempts.jsx",
         "frontend/src/components/QuizBuilderForm.jsx",
@@ -97,8 +106,16 @@
         "back-end/routes/learning.js": "Tasks/assignments/submissions/milestones/learning-plan blocks",
         "back-end/routes/members.js": "Teaching roster and paper-fund award routes",
         "back-end/seed.js": "Teaching fixtures",
-        "tests/redux-api.test.js": "Assignments/quizzes coverage"
-      }
+        "tests/redux-api.test.js": "Assignments/quizzes coverage",
+        "back-end/services/access.js": "Guidance eligibility and relationship reconciliation",
+        "back-end/services/learning-access.js": "Quiz/assignment/submission access",
+        "tests/expanded.test.js": "Instructor guidance, tasks and assessment scenarios",
+        "tests/browser.js": "Instructor/guidance/assessment browser sections",
+        ".github/CODEOWNERS": "Shared module ownership policy; review responsibilities do not assign commit authorship",
+        "docs/team-ownership.json": "Team ownership agreement; update only genuine agreed responsibilities",
+        "TEAM_CONTRIBUTIONS.md": "Update only the corresponding actual contribution/coordination record"
+      },
+      "workBranch": "feature/instructor-praneeth"
     },
     {
       "number": 3,
@@ -136,15 +153,25 @@
         "frontend/src/redux/routes.js": "Course/media endpoints",
         "back-end/routes/learning.js": "Course/lesson/enrollment/review route blocks",
         "back-end/seed.js": "Course/media fixtures",
-        "tests/redux-api.test.js": "Course/media coverage"
-      }
+        "tests/redux-api.test.js": "Course/media coverage",
+        "back-end/routes/provider.js": "GET /provider, GET/POST /courses/:id/terms, POST /courses/:id/terms/respond; provider-side visibility/ownership",
+        "back-end/services/access.js": "Course access eligibility",
+        "back-end/services/learning-access.js": "Course/lesson/resource ownership and enrollment access",
+        "tests/expanded.test.js": "Provider course/resource scenarios",
+        "tests/browser.js": "Course/provider browser sections",
+        "tests/redux.test.js": "Course CRUD cases",
+        ".github/CODEOWNERS": "Shared module ownership policy; review responsibilities do not assign commit authorship",
+        "docs/team-ownership.json": "Team ownership agreement; update only genuine agreed responsibilities",
+        "TEAM_CONTRIBUTIONS.md": "Update only the corresponding actual contribution/coordination record"
+      },
+      "workBranch": "feature/course-provider-purvaj"
     },
     {
       "number": 4,
       "name": "Bharan",
       "username": "BharanRajP",
       "email": "bharanraj.p24@iiits.in",
-      "actor": "User Admin and Super Admin",
+      "actor": "User Admin + Super Admin",
       "workload": "21%",
       "commit": "5cd2768",
       "subject": "feat(admin): improve reviewed sessions members and support workflows",
@@ -221,15 +248,34 @@
         "back-end/routes/members.js": "Member CRUD/status/permission/session/notes routes",
         "back-end/db.js": "Database/transaction owner; shared schema coordination",
         "back-end/seed.js": "Common seed/schema coordination",
-        "tests/redux-api.test.js": "Auth/member/support coverage"
-      }
+        "tests/redux-api.test.js": "Auth/member/support coverage",
+        "back-end/services/access.js": "Identity, approval and administrative access rules",
+        "back-end/config.js": "Session, environment and deployment defaults",
+        "back-end/app.js": "Authentication/security middleware and route registration",
+        "back-end/server.js": "API startup/readiness and shutdown",
+        "tests/api.test.js": "Authentication/admin/authorization test blocks",
+        "tests/expanded.test.js": "Member administration scenarios",
+        "tests/notifications.test.js": "Inbox, broadcasts and permissions",
+        "tests/browser.js": "Auth/member/admin/support/notification sections",
+        "tests/redux.test.js": "Session/auth isolation cases",
+        "frontend/src/redux/utilities/requests.js": "Secret handling, session epoch and cancellation review",
+        "frontend/src/redux/utilities/resourceState.js": "Request-ID and invalidation correctness review",
+        "frontend/src/redux/utilities/runtime.js": "Logout/disposal and obsolete-session behavior",
+        "frontend/src/redux/utilities/session.js": "Session reset/expiry action contract",
+        "package.json": "Security/configuration review",
+        "package-lock.json": "Dependency/security review; excluded from source-work counts",
+        ".github/CODEOWNERS": "Shared module ownership policy; review responsibilities do not assign commit authorship",
+        "docs/team-ownership.json": "Team ownership agreement; update only genuine agreed responsibilities",
+        "TEAM_CONTRIBUTIONS.md": "Update only the corresponding actual contribution/coordination record"
+      },
+      "workBranch": "feature/admin-bharan"
     },
     {
       "number": 5,
       "name": "Gurwinder",
       "username": "gurwinder-s24",
       "email": "gaurav98498@gmail.com",
-      "actor": "Payment Admin and shared integration",
+      "actor": "Payment Admin",
       "workload": "19%",
       "commit": "0aaf233",
       "subject": "feat(billing): improve reviewed checkout commerce and integration",
@@ -272,7 +318,8 @@
         "scripts/smoke.js",
         "tests/browser.js",
         "tests/redux.test.js",
-        "vitest.config.js"
+        "vitest.config.js",
+        "back-end/services/subscription-reminders.js"
       ],
       "sharedFunctions": {
         "frontend/src/pages/Provider.jsx": "Commerce(): admin licensing and settlement workflows; provider commercial callbacks",
@@ -287,8 +334,39 @@
         "frontend/src/redux/selectors/index.js": "Selector contracts",
         "back-end/db.js": "Financial transaction review",
         "back-end/seed.js": "Payment/commerce fixtures",
-        "tests/redux-api.test.js": "Full-stack integration harness"
-      }
+        "tests/redux-api.test.js": "Full-stack integration harness",
+        "back-end/routes/provider.js": "GET /commerce, POST /commerce/:id/decision and /earning, POST /settlements/:id/paid; financial rules",
+        "back-end/services/access.js": "Paid-plan entitlement boundaries",
+        "back-end/config.js": "Payment provider, prices and billing environment settings",
+        "back-end/app.js": "Payment webhook registration ordering and shared serving integration",
+        "back-end/server.js": "Billing reminder worker lifecycle",
+        "tests/api.test.js": "Payment/refund test blocks",
+        "tests/expanded.test.js": "Commerce/payment scenarios",
+        "tests/notifications.test.js": "Subscription reminder delivery/idempotency",
+        "tests/browser.js": "Plan/checkout/commerce sections",
+        "tests/redux.test.js": "Shared store/request middleware integration harness",
+        "frontend/src/redux/utilities/requests.js": "Thunk transport/error/token-mailbox integration",
+        "frontend/src/redux/utilities/resourceState.js": "Shared request lifecycle/CRUD reconciliation contract",
+        "frontend/src/redux/utilities/runtime.js": "Shared subscription/polling coordinator",
+        "frontend/src/redux/utilities/session.js": "Store integration consumers",
+        "package.json": "Dependency/script integration; only actual dependency changes",
+        "package-lock.json": "Generated lockfile paired with actual package.json dependency changes",
+        ".github/CODEOWNERS": "Shared module ownership policy; review responsibilities do not assign commit authorship",
+        "docs/team-ownership.json": "Team ownership agreement; update only genuine agreed responsibilities",
+        "TEAM_CONTRIBUTIONS.md": "Update only the corresponding actual contribution/coordination record"
+      },
+      "workBranch": "feature/payments-gurwinder"
     }
-  ]
+  ],
+  "confirmedModuleOwnership": {
+    "Jeswanth09052007": "Learner",
+    "me-coder7": "Instructor",
+    "Purvaj-P22": "Course Provider",
+    "BharanRajP": "User Admin + Super Admin",
+    "gurwinder-s24": "Payment Admin"
+  },
+  "workBranchBase": "a53d4f9edc6c96935e93a2ded390de27dec78652",
+  "commitAttributionPolicy": "Each new commit must describe actual work and use its genuine authorized author. Creating branches or assigning owners does not create contributor credit.",
+  "commitPlan": "TEAM_COMMIT_PLAN.md",
+  "ownershipCorrection": "Subscription reminders reassigned to Payment Admin after inspecting sendSubscriptionReminders; no commit authorship was changed."
 }

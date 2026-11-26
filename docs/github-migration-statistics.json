@@ -1,0 +1,186 @@
+{
+  "basis": "Actual committed import diff from original 82fbbea to ae0cd01f0cafad4e038183d22843089f232e8db6, --numstat --no-renames; ownership columns are review footprints, NOT authorship.",
+  "baseline": "82fbbea349aab6014f152d15742d531060f52626",
+  "changedFiles": 406,
+  "totals": {
+    "added": 22527,
+    "deleted": 165860,
+    "binaryFiles": 6
+  },
+  "categories": {
+    "configuration": {
+      "added": 76,
+      "deleted": 145,
+      "binaryFiles": 0,
+      "files": 10
+    },
+    "documentation": {
+      "added": 3665,
+      "deleted": 1817,
+      "binaryFiles": 0,
+      "files": 33
+    },
+    "source": {
+      "added": 15767,
+      "deleted": 22808,
+      "binaryFiles": 0,
+      "files": 291
+    },
+    "assets": {
+      "added": 0,
+      "deleted": 74,
+      "binaryFiles": 6,
+      "files": 7
+    },
+    "datasets": {
+      "added": 1,
+      "deleted": 136718,
+      "binaryFiles": 0,
+      "files": 62
+    },
+    "lockfiles": {
+      "added": 3018,
+      "deleted": 4298,
+      "binaryFiles": 0,
+      "files": 3
+    }
+  },
+  "byAssignedMember": {
+    "4": {
+      "sourceAdded": 4945,
+      "sourceDeleted": 10035,
+      "frontendAdded": 3112,
+      "frontendDeleted": 6851,
+      "sourceFileEntries": 104
+    },
+    "1": {
+      "sourceAdded": 3185,
+      "sourceDeleted": 2393,
+      "frontendAdded": 2359,
+      "frontendDeleted": 1612,
+      "sourceFileEntries": 59
+    },
+    "2": {
+      "sourceAdded": 2280,
+      "sourceDeleted": 2317,
+      "frontendAdded": 1782,
+      "frontendDeleted": 1466,
+      "sourceFileEntries": 35
+    },
+    "3": {
+      "sourceAdded": 1941,
+      "sourceDeleted": 4871,
+      "frontendAdded": 1557,
+      "frontendDeleted": 4345,
+      "sourceFileEntries": 30
+    },
+    "5": {
+      "sourceAdded": 3416,
+      "sourceDeleted": 3192,
+      "frontendAdded": 2355,
+      "frontendDeleted": 2106,
+      "sourceFileEntries": 63
+    }
+  },
+  "gitDetectedRenames": [],
+  "sharedFunctionOwnership": {
+    "frontend/src/pages/Provider.jsx": {
+      "3": "Provider(): course dashboard and provider-side proposal forms",
+      "5": "Commerce(): admin licensing and settlement workflows; provider commercial callbacks"
+    },
+    "frontend/src/pages/Operations.jsx": {
+      "4": "Notifications/Broadcast/Support/Ticket and account/staff/course queues",
+      "5": "AdminActions(): payment queue and refunds; shared queue integration"
+    },
+    "frontend/src/pages/Quizzes.jsx": {
+      "2": "Quizzes/Quiz/QuizBuilder and assessment integration",
+      "3": "Course-scoped audience and Resources integration",
+      "1": "Learner response interaction review"
+    },
+    "frontend/src/pages/Guidance.jsx": {
+      "2": "Directory/Guidance request and roster workflows",
+      "1": "Learner request behavior",
+      "3": "Provider relationship behavior"
+    },
+    "frontend/src/pages/Overview.jsx": {
+      "4": "Overview role gates and admin/shared composition",
+      "2": "InstructorSummary()",
+      "1": "LearnerOverview()",
+      "3": "Provider overview links"
+    },
+    "frontend/src/components/Common.jsx": {
+      "5": "Form/Action/Result and reusable props contracts",
+      "4": "Validation/security/error review",
+      "2": "Assessment form consumers",
+      "3": "Course form consumers",
+      "1": "Trading/result consumers"
+    },
+    "frontend/src/hooks/api.js": {
+      "5": "Shared Redux-backed hooks and formatting exports",
+      "4": "Transport/security review"
+    },
+    "frontend/src/hooks/request.js": {
+      "5": "JSON/upload transport integration",
+      "4": "Cookie/header/timeout/error boundaries",
+      "3": "Raw upload headers"
+    },
+    "frontend/src/main.jsx": {
+      "5": "Provider/router/lazy page integration",
+      "4": "Workspace/Gate/auth redirects",
+      "1": "Trading routes",
+      "2": "Teaching routes",
+      "3": "Course routes"
+    },
+    "frontend/src/redux/store.js": {
+      "5": "Central reducer/middleware integration",
+      "4": "Session resets, permissions and private-state review"
+    },
+    "frontend/src/redux/routes.js": {
+      "5": "Endpoint routing and targeted refresh integration",
+      "4": "Auth/admin mappings",
+      "1": "Trading endpoints",
+      "2": "Teaching endpoints",
+      "3": "Course/media endpoints"
+    },
+    "frontend/src/redux/hooks.js": {
+      "5": "Subscriptions and operation-specific action hooks",
+      "4": "Cancellation/session review"
+    },
+    "frontend/src/redux/selectors/index.js": {
+      "5": "Selector contracts",
+      "1": "Quotes/watchlists derivations",
+      "4": "Current-user/theme review"
+    },
+    "back-end/routes/learning.js": {
+      "3": "Course/lesson/enrollment/review route blocks",
+      "2": "Tasks/assignments/submissions/milestones/learning-plan blocks"
+    },
+    "back-end/routes/members.js": {
+      "4": "Member CRUD/status/permission/session/notes routes",
+      "2": "Teaching roster and paper-fund award routes"
+    },
+    "back-end/db.js": {
+      "4": "Database/transaction owner; shared schema coordination",
+      "5": "Financial transaction review"
+    },
+    "back-end/seed.js": {
+      "4": "Common seed/schema coordination",
+      "1": "Market/trading fixtures",
+      "2": "Teaching fixtures",
+      "3": "Course/media fixtures",
+      "5": "Payment/commerce fixtures"
+    },
+    "tests/redux-api.test.js": {
+      "5": "Full-stack integration harness",
+      "1": "Trading coverage",
+      "2": "Assignments/quizzes coverage",
+      "3": "Course/media coverage",
+      "4": "Auth/member/support coverage"
+    }
+  },
+  "importCommit": "ae0cd01f0cafad4e038183d22843089f232e8db6",
+  "unchangedFiles": [
+    ".node-version",
+    ".nvmrc"
+  ]
+}

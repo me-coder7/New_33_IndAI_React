@@ -1,31 +1,11 @@
 # Contributing to IndAI
 
-Use one integrated repository. The [actor responsibility matrix](docs/TEAM.md) identifies the primary integration boundaries, while shared components are coordinated across actor leads.
+Read TEAM_CONTRIBUTIONS.md for current file/function boundaries and GITHUB_MIGRATION_REPORT.md for the actual migration. The initial Redux import is attributed honestly to the authorized integrator; actor allocation is future work/study responsibility, not invented authorship.
 
-## Development workflow
+Create a focused feature branch from redux-migration while the update awaits approval. Make a real change, coordinate shared files at function/hunk level, and run the appropriate checks. Do not create empty commits or reformat code to inflate statistics. Preserve backend-owned pricing, balances, authorization and supported workflow transitions.
 
-1. Work from an up-to-date clone and preserve its existing Git history.
-2. Create a focused branch for a real change. Use the contributor's own configured identity and authentication.
-3. Keep role behavior, backend authorization, state persistence and API error handling consistent.
-4. Inspect the diff, build, run applicable tests and validate documentation before opening a review request.
-5. Merge reviewed changes into the default branch only after project checks pass. Commit messages should describe the actual changes; do not create empty or duplicate uploads merely to increase commit counts.
+Use `powershell -NoProfile -File scripts/Summarize-Contributions.ps1 -Range 'main..HEAD'` to report recorded source, dataset, asset, documentation and lockfile changes separately. Before committing, run `powershell -NoProfile -File scripts/Test-StagedSecrets.ps1` and `git diff --cached --check`.
 
-From the application root:
+The author is the person who did the actual work; the committer records who created the commit; push authentication identifies the account sending commits to GitHub. Use a teammate author or Co-authored-by trailer only for genuine, authorized work. Do not change global identities, rewrite history or force-push.
 
-```powershell
-npm run setup
-npm run build
-npm test
-```
-
-The setup installs locked dependencies. Browser coverage can be run with npm run test:browser after installing Chromium through Playwright. See [testing](docs/TESTING.md).
-
-## Shared files
-
-Coordinate function/role-specific edits in Dashboard.jsx, Learning.jsx, Management.jsx, Commerce.jsx and Common.jsx. A file containing several actors' branches is a shared implementation boundary, not an exclusively owned module. Document API/props changes and review their consuming actors.
-
-## Repository contents
-
-Keep frontend/backend sources, lockfiles, startup scripts, tests, fixtures, bundled datasets, environment examples and project documentation. Exclude private .env files, tokens/credentials, node_modules, generated builds, runtime stores/uploads and temporary files. Never put personal access tokens or passwords in a contribution sheet.
-
-For reproducible releases, extract or clone into a new writable folder, install/build from the documented commands and exercise the affected real workflows. Local build checks and a deployed external service are different verification levels.
+Use `npm install`, `npm run setup`, `npm test`, `npm run build`, `npm run test:smoke`, `npm run test:catalog-ui`, `npm run test:e2e` and `npm run test:trading-ui`. Browser tests need `npx playwright install chromium`. Use demo data/funds. Keep private .env files, runtime databases, dependencies and build output out of Git. Merge into main only after the user approves the reviewed update.

@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Calcutta",
+  "node": "24.11.0",
+  "npm": "11.6.1",
+  "projectVersion": "3.0.0",
+  "commands": [
+    {
+      "command": "npm install --ignore-scripts --registry=https://registry.npmjs.org",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm run test:smoke",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm run test:catalog-ui",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm run test:trading-ui",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm run test:e2e",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "command": "npm run setup",
+      "exitCode": 0,
+      "status": "passed",
+      "notes": "DEMO_MODE=true, MARKET_SOURCE=demo; separate .migration/setup-data directory, not the user database."
+    },
+    {
+      "command": "npm audit --json --registry=https://registry.npmjs.org",
+      "exitCode": 1,
+      "status": "advisories",
+      "notes": "5 retained dependency-tree advisories: 1 moderate, 2 high, 2 critical. Full output in npm-audit.json."
+    }
+  ],
+  "testFiles": 8,
+  "tests": {
+    "passed": 68,
+    "failed": 0,
+    "skipped": 0,
+    "existing": 48,
+    "added": 20
+  },
+  "browserChecks": {
+    "e2e": "All 7 quick logins; signup/verification/approval; courses/progress; support; orders/portfolio; demo billing; guidance; notification broadcast/read; role restrictions; profile/password; responsive themes.",
+    "trading": "Watchlist CRUD/reorder/persistence, stock selection, chart styles/reset/fullscreen, 1440/390/320px, dark mode, no page errors."
+  },
+  "notExecuted": [
+    "Hosted Razorpay checkout/refunds",
+    "Live Upstox provider access and open-session execution",
+    "SMTP delivery",
+    "Real external transfers",
+    "Automated original-versus-new screenshot pixel comparison"
+  ],
+  "environmentNotes": [
+    "Sandbox initially blocked worker/server/browser processes with EPERM. Approved reruns executed successfully.",
+    "Chromium was initially missing; Playwright Chromium and headless shell installed successfully before browser tests.",
+    "Initial implementation errors in Provider naming and frozen-state session reset were corrected before final successful runs.",
+    "An in-sandbox audit returned an empty advisory result; a network-enabled rerun confirmed 5 advisories. The network-enabled audit is the release record."
+  ],
+  "preservation": {
+    "backend": "byte-identical to inspected baseline",
+    "css": "byte-identical to inspected baseline",
+    "runtimeDatabase": "Not included; existing database untouched; tests used memory/temp data"
+  },
+  "sourceBoundaries": {
+    "reactQueryImports": 0,
+    "componentDomainFetchCalls": 0
+  },
+  "releaseExclusions": [
+    "node_modules",
+    "frontend/dist",
+    "data",
+    "private .env",
+    "credentials",
+    "temporary work and unrelated generated files"
+  ]
+}
